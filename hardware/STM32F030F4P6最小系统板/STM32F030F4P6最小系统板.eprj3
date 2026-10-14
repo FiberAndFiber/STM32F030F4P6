@@ -1,0 +1,70 @@
+{
+  "name": "STM32F030F4P6最小系统板",
+  "owner_uuid": "b6849de6a1d34fb8a151b5e4aab6c859",
+  "creator_uuid": "b6849de6a1d34fb8a151b5e4aab6c859",
+  "created_at": "2026-10-14 18:07:12",
+  "updated_at": "2026-10-14 18:07:12",
+  "modifier_uuid": "b6849de6a1d34fb8a151b5e4aab6c859",
+  "content": "<h4>STM32F030F4P6最小系统板</h4>\n<p>stm030f4p6的内核是ARM 32-bit Cortex-M0 CPU，频率可到 48 MHz</p>\n<p>因其低功耗、体积小，可用于轻度的消费电子领域，比如说用做桌宠的主控、用于穿戴设备的主控</p>\n<p><img src=\"https://image.lceda.cn/oshwhub/pullImage/ca8028f84ab7406892b3877350a3a447.jpg\" alt=\"\" width=\"1124\" height=\"842\"></p>\n<h4>引脚定义</h4>\n<table width=\"799\">\n\n<tr>\n<td width=\"58\">引脚号</td>\n<td width=\"147\">引脚名称</td>\n<td width=\"43\">类型</td>\n<td width=\"104\">I/O structure</td>\n<td width=\"58\">主功能</td>\n<td width=\"225\">Alternate functions</td>\n<td width=\"164\">Additional function</td>\n</tr>\n<tr>\n<td>1</td>\n<td>BOOT0</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n</tr>\n<tr>\n<td>2</td>\n<td>PF0-OSC_IN(PF0)</td>\n<td>I/O</td>\n<td>　</td>\n<td>XIN</td>\n<td>I2C1_SDA</td>\n<td>　</td>\n</tr>\n<tr>\n<td>3</td>\n<td>PF1-OSC_OUT(PF1)</td>\n<td>I/O</td>\n<td>　</td>\n<td>XOUT</td>\n<td>I2C1_SCL</td>\n<td>　</td>\n</tr>\n<tr>\n<td>4</td>\n<td>NRST</td>\n<td>I/O</td>\n<td>　</td>\n<td>　</td>\n<td colspan=\"2\" width=\"389\">Device reset input / internal reset output(active low)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>VDDA</td>\n<td>S</td>\n<td>　</td>\n<td>　</td>\n<td colspan=\"2\">Analog power supply</td>\n</tr>\n<tr>\n<td>6</td>\n<td>PA0</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">USART1_CTS, USART2_CTS, <br>USART4_TX</td>\n<td>　</td>\n</tr>\n<tr>\n<td>7</td>\n<td>PA1</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">USART1_RTS, USART2_RTS, <br>EVENTOUT, USART4_RX</td>\n<td>　</td>\n</tr>\n<tr>\n<td>8</td>\n<td>PA2</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">USART1_TX, USART2_TX, <br>TIM15_CH1</td>\n<td>ADC_IN2, WKPU4</td>\n</tr>\n<tr>\n<td>9</td>\n<td>PA3</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">USART1_RX, USART2_RX, <br>TIM15_CH2</td>\n<td>ADC_IN3</td>\n</tr>\n<tr>\n<td>10</td>\n<td>PA4</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">SPI1_NSS, USART1_CK,<br>USART2_CK, <br>TIM14_CH1, USART6_TX</td>\n<td>ADC_IN4</td>\n</tr>\n<tr>\n<td>11</td>\n<td>PA5</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">SPI1_SCK, USART6_RX</td>\n<td>ADC_IN5</td>\n</tr>\n<tr>\n<td>12</td>\n<td>PA6</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">SPI1_MISO, TIM3_CH1, <br>TIM1_BKIN, TIM16_CH1, <br>EVENTOUT USART3_CTS</td>\n<td>ADC_IN6</td>\n</tr>\n<tr>\n<td>13</td>\n<td>PA7</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">SPI1_MOSI, TIM3_CH2, <br>TIM14_CH1, TIM1_CH1N, <br>TIM17_CH1, EVENTOUT</td>\n<td>ADC_IN7</td>\n</tr>\n<tr>\n<td>14</td>\n<td>PB1</td>\n<td>I/O</td>\n<td>TTa</td>\n<td>　</td>\n<td width=\"225\">TIM3_CH4,  TIM14_CH1,<br>TIM1_CH3N, USART3_RTS</td>\n<td>ADC_IN9</td>\n</tr>\n<tr>\n<td>15</td>\n<td>VSS</td>\n<td>S</td>\n<td>　</td>\n<td>　</td>\n<td colspan=\"2\" width=\"389\">Ground</td>\n</tr>\n<tr>\n<td>16</td>\n<td>VDD</td>\n<td>S</td>\n<td>　</td>\n<td>　</td>\n<td colspan=\"2\">Complementary power supply</td>\n</tr>\n<tr>\n<td>17</td>\n<td>PA9</td>\n<td>I/O</td>\n<td>FT</td>\n<td>　</td>\n<td width=\"225\">USART1_TX,TIM1_CH2,<br>TIM15_BKIN,I2C1_SCL</td>\n<td>　</td>\n</tr>\n<tr>\n<td>18</td>\n<td>PA10</td>\n<td>I/O</td>\n<td>FT</td>\n<td>　</td>\n<td width=\"225\">USART1_RX,TIM1_CH3,<br>TIM17_BKIN,I2C1_SDA</td>\n<td>　</td>\n</tr>\n<tr>\n<td>19</td>\n<td>PA13(SWDIO)</td>\n<td>I/O</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n</tr>\n<tr>\n<td>20</td>\n<td>PA14(SWCLK)</td>\n<td>I/O</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n<td>　</td>\n</tr>\n\n</table>\n<p> </p>\n<h4>移植</h4>\n<p>STM32F030F4P6的标准库函数与STMF103C8T6的标准库函数基本一致<img src=\"https://image.lceda.cn/oshwhub/pullImage/c7e621f9ac1f41aeb40eb0191fd28a92.jpg\" alt=\"stm32f0 标准库GPIO初始化\" width=\"1132\" height=\"596\"></p>\n<p> </p>\n<p><img src=\"https://image.lceda.cn/oshwhub/pullImage/1b4ba8619eec473881a3df4a7c8d5a88.jpg\" alt=\"stm32f1 标准库GPIO初始化\" width=\"1132\" height=\"574\"></p>",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": "{\"type\":\"DOCHEAD\",\"ticket\":3}||{\"docType\":\"BOARD\",\"client\":\"a20e2d86ef089e84\",\"uuid\":\"1b63ce9f2e69e912\",\"updateTime\":1785075398195,\"version\":\"1785075398195\",\"editVersion\":\"3.2.175\",\"user\":{\"uuid\":\"1b63ce9f2e69e912\"}}|\n{\"type\":\"META\",\"ticket\":3,\"id\":\"META\"}||{\"title\":\"Board1\",\"zIndex\":1}|\n{\"type\":\"DOCHEAD\",\"ticket\":60}||{\"docType\":\"CONFIG\",\"client\":\"a20e2d86ef089e84\",\"uuid\":\"CONFIG\",\"updateTime\":1785075400376,\"version\":\"1785075400376\",\"editVersion\":\"3.2.175\",\"user\":{\"uuid\":\"CONFIG\"}}|\n{\"type\":\"UNIVERSAL\",\"ticket\":1,\"id\":\"UNIVERSAL\"}||{\"allowLibRename\":true,\"defaultNetName\":true,\"wireMultipleNet\":true,\"netFlagCrossLayerConnection\":true,\"netLabelCrossPageConnection\":true,\"busGenerateNetClass\":true,\"relevanceDisplayRow\":\"SINGLE\",\"relevanceBelongSchPage\":\"NAME\",\"relevanceLocation\":\"ZONE\",\"multipartCrossLayer\":true}|\n{\"type\":\"META\",\"ticket\":60,\"id\":\"META\",\"firstTicket\":2}||{\"defaultSheet\":\"e2b062a64c7318b5\"}",
+  "profile": {
+    "boards": {
+      "1b63ce9f2e69e912": {
+        "uuid": "1b63ce9f2e69e912",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "ec54f4e35dac9f0c": {
+        "uuid": "ec54f4e35dac9f0c",
+        "name": "Schematic1",
+        "board": "1b63ce9f2e69e912",
+        "source": "",
+        "version": "1785084695298",
+        "updateTime": 1785084695298
+      }
+    },
+    "sheets": {
+      "0564ca88a4e63b5d": {
+        "uuid": "0564ca88a4e63b5d",
+        "title": "P1",
+        "schematic_uuid": "ec54f4e35dac9f0c",
+        "zIndex": 1,
+        "source": "",
+        "version": "1785222827733",
+        "updateTime": 1785222827733
+      }
+    },
+    "pcbs": {
+      "b948e9ab8992f324": {
+        "uuid": "b948e9ab8992f324",
+        "title": "PCB1",
+        "board": "1b63ce9f2e69e912",
+        "zIndex": null,
+        "parent_uuid": "",
+        "source": "",
+        "version": "1786960811901",
+        "updateTime": 1786960811901
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "C:\\Users\\V\\Documents\\LCEDA-Pro\\projects",
+      "username": "",
+      "nickname": ""
+    }
+  }
+}
